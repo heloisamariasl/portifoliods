@@ -1,0 +1,80 @@
+body{
+  background-color: #000000;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+h1{
+  color: #dddada;
+  text-align: center;
+}
+
+h2{
+  color: #dddada;
+  text-align: center;
+}
+
+h3{
+  color: #dddada;
+
+}
+
+
+p{
+  color: #dddada;
+  text-align: left;
+}
+
+.imagem_01{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.container_imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+}
+
+.container_imagem::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0f7db5;
+    filter: blur(2px); 
+    z-index: 0;
+}
+
+.imagem_projeto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;      
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.destelado {
+    width: 400px;   
+    height: auto;
+    border-radius: 12px;
+}
+
+.imagem_projeto1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.recolabora {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+}
