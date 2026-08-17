@@ -5,6 +5,8 @@ import imagem_recolabora1 from "./assets/imagem_recolabora1.png";
 import imagem_recolabora2 from "./assets/imagem_recolabora2.png";
 import imagem_linkedin from "./assets/imagem_linkedin.png";
 import imagem_email from "./assets/imagem_email.png";
+import imagem_etl_rec1 from "./assets/imagem_etl_rec1.png";
+
 
 function App() {
   return (
@@ -92,23 +94,25 @@ function App() {
           <strong>Objetivo:</strong> transformar dados públicos em informações estruturadas que possam facilitar a análise e a compreensão das demandas de serviços urbanos da cidade.
         </p>
 
-        <p>
-          <strong>Repositório:</strong> https://github.com/heloisamariasl/recif-etl-emlurb
+         <p>
+          Repositório:
+          <a
+            href="https://github.com/heloisamariasl/recif-etl-emlurb.git"
+            target="_blank"
+            rel="noreferrer"
+            >
+              Recife-ETL-EMLURB
+          </a>
         </p>
 
-        <div className="imagem_projeto1">
+        <div className="imagem_projeto0">
           <img
-            src={imagem_recolabora1}
-            alt="Protótipo do ReColabora"
-            className="recolabora"
-          />
-
-          <img
-            src={imagem_recolabora2}
-            alt="Interface do ReColabora"
-            className="recolabora"
+            src={imagem_etl_rec1}
+            alt="Protótipo do Recife-ETL-EMLURB"
+            className="etl_rec"
           />
         </div>
+
 
         <h3>🚩 ReColabora</h3>
 
@@ -126,17 +130,7 @@ function App() {
           coletiva.
         </p>
 
-        <p>
-          Repositório:{" "}
-          <a
-            href="https://github.com/heloisamariasl/recif-etl-emlurb.git"
-            target="_blank"
-            rel="noreferrer"
-            >
-              Recife-ETL-EMLURB
-          </a>
-        </p>
-
+      
         <div className="imagem_projeto1">
           <img
             src={imagem_recolabora1}
@@ -185,7 +179,7 @@ function App() {
         </div>
 
         <p>
-          Repositório:{" "}
+          Repositório:
           <a
             href="https://github.com/heloisamariasl/Destelado"
             target="_blank"

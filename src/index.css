@@ -101,6 +101,20 @@ p {
   border-radius: 12px;
 }
 
+.imagem_projeto0 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.etl_rec {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+}
+
 .imagem_projeto1 {
   display: flex;
   justify-content: center;
